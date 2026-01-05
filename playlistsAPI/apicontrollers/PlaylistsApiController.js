@@ -87,7 +87,7 @@ class PlaylistsApiController {
 					if (!createdPlaylist) {
 						return apiResponse.errorResponse(res, 'Could not create playlist');
 					} else {
-						let playlistData = this.includeData(createdPlaylist);	//washar
+						let playlistData = this.includeData(createdPlaylist);
 						return apiResponse.successResponseWithData(res, "Playlist add Success.", playlistData);
 					};
 				}

@@ -1,0 +1,28 @@
+.bg-dark-transparent {
+  background-color: rgba(175, 174, 174, 0.5); /* Bootstrap dark med 10% opacitet */
+}
+
+.custom-v07 {
+  background-color: #343a40; /* mörk bas */
+  border: none;
+  color: #e9ecef; /* ljus text */
+  border-radius: 0.5rem;
+  overflow: hidden; /* runda hörn */
+}
+
+.custom-v07 thead {
+  background-color: #343a40;
+  color: #e9ecef; /* ljus text */
+}
+
+.custom-v07 th, .custom-v07 td {
+  border: none;
+  vertical-align: middle;
+  background-color: #343a40;
+  color: #e9ecef; /* ljus text */
+  border-radius: 0.5rem;
+}
+
+.custom-v07 tbody tr:hover {
+  background-color: rgba(151, 151, 151, 0.1);
+}
