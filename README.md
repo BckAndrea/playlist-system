@@ -1,6 +1,14 @@
-# Playlist System (School project)
+## Playlist System (School project)
 A **full-stack** school project using: **React** and **Vite** for the front-end, **Node.js, Express and MongoDB** for back-end.
 Playlist System is a full-stack application where users can create, view, and manage playlists.  
+
+## Features
+
+- User authentication
+- Seed, Create, update and delete playlists 
+- Seed, Create, update and delete sonngs
+- View all playlists for current user
+- REST API for backend
 
 ## Installation
 
@@ -20,7 +28,7 @@ npm start
 cd ./Frontend-PlaylistsApp
 npm install
 npm run dev
-
+```
 
 ## Teck stack
 **Frontend:**  
