@@ -21,10 +21,8 @@ console.log('NODE_ENV:', process.env.NODE_ENV)
 import apiResponse from './helpers/apiResponse.js'
 
 // Routers
-
-import indexRouter from './routes/index.js'	//in real api we do not have this
+import indexRouter from './routes/index.js'	
 import apiRouter from './routes/api.js'
-
 
 
 /**
@@ -80,6 +78,7 @@ AuthStrategy.initialize(app);
 // =========================================================
 
 //Route Prefixes
+//for having a small front-end here to easier see that it is upp an running.
 app.use("/", indexRouter);		//in normal api we do not have this
 app.use("/api", apiRouter);		//starturl for all restapi related
 
